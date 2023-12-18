@@ -1,0 +1,32 @@
+@import url("communs.css");
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+fieldset {
+    border-radius: 3px;
+    background-color: #ffffff96;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.386);
+}
+
+#ajout {
+    font-size: 1.8em;
+    font-weight: bold; 
+    color: var(--col5);
+    padding-bottom: 15px;
+}
+
+td { 
+    color: var(--col6);
+}
+
+label,
+td {
+    font-weight: bold;
+    font-size: 16px;
+}

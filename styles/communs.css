@@ -1,0 +1,146 @@
+:root {
+  --col0: #81BEF7;
+  --col1: #013ADF;
+  --col2: #0B2161;
+  --col3: #04B431;
+  --col4: #0B610B;
+  --col5: hsl(42, 90%, 8%);
+  --col6: #3B240B;
+  --col7: #1c1501;
+  --col8: #FFFFFF;
+  --col9: #000000;
+  --col10: #292929;
+  --col11: #29292977;
+}
+
+/*Centre de la page*/
+body {
+  background-image: url(../imgdoc/fond11.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  font-family: initial
+}
+
+.centre {
+  padding: 20px;
+  width: 80%;
+  margin: 2px auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.635);
+  border-radius: 5px;
+}
+
+/* Barre de menu  */
+#barre {
+  text-align: center;
+  background-image: url("../imgdoc/fondBarredemenu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.barre-de-menu {
+  padding-top: 90px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.barre-de-menu>li {
+  display: inline;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+div>.barre-de-menu>li>a {
+  color: var(--col8);
+  padding: 10px;
+  font-size: 3.5vw;
+  text-decoration: none;
+}
+
+#nom-utilisateur {
+  color: var(--col8);
+  border: 1px solid var(--col11);
+  background-color: #292929b0;
+  padding: 5px;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.lico {
+  position: relative;
+  text-align: right;
+}
+
+#connexion {
+  color: var(--col8);
+  border: 1px solid var(--col11);
+  background-color: #292929b0;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.barre-de-menu li>a:hover {
+  background-color: var(--col11);
+}
+
+.barre-de-menu>li>a.actuel {
+  border: var(--col7) 5px;
+  border-bottom-style: solid;
+}
+/*Bouton deconnexion*/
+#bouton {
+  text-align: right;
+  margin-left: 10px;
+  position: relative;
+}
+
+#bouton input[type="submit"] {
+  background-color: #251c01; 
+  color: #ffffff; 
+  cursor: pointer;
+  font-family:initial; 
+}
+#bouton input[type="submit"]:hover { 
+  background-color: #000000;
+}
+
+ul {
+  padding: 10px;
+}
+
+/*Boutons*/
+.btn {
+  margin-top: 3px;
+  background-color: var(--col5);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  transition: background-color 0.3s ease;
+  font-family:initial;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+/*Message d'erreurs*/
+.erreur {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+/*Message de remerciement*/
+.mrc{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}

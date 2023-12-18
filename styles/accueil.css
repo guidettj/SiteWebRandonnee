@@ -1,0 +1,70 @@
+@import url("communs.css");
+
+main,
+h1,
+p {
+  width: 80%;
+  margin: 2px auto;
+  text-align: center;
+  background-color: var(--col8);
+}
+
+ul {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #7a86700c;
+  padding: 10px;
+}
+
+ul div {
+  font-size: 20px;
+  color: var(--col5);
+}
+
+#desc {
+  font-size: 17px;
+  color: var(--col5);
+  text-align: center;
+  padding: 20px;
+  background-image: url("../imgdoc/fond_bienvenu.png");
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#desc span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#desc span:last-child {
+  margin-bottom: 0;
+}
+
+#titre {
+  padding-top: 20px;
+}
+
+ul>li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul>li>a {
+  text-decoration: none;
+  color: var(--col6);
+  font-size: 35px;
+} 
+
+.image {
+  max-width: 70%;
+  max-height: 30vw;
+}
+/*Departement*/
+.departement {
+  font-size: 40px;
+  margin-top: 20px;
+  border-top: rgb(73, 71, 71) 1px solid;
+} 

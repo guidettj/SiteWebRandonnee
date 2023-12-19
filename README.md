@@ -14,7 +14,7 @@ Pour exécuter le programme, suivez ces étapes :
 
 4. Accédez au site web dans votre navigateur à l'adresse `http://localhost/votre-dossier-projet`.
 
-# Installation des Bases de Données avec phpMyAdmin
+## Installation des Bases de Données avec phpMyAdmin
 
 Pour utiliser les bases de données fournies dans le dossier "ExempleBD", suivez les étapes ci-dessous pour les installer à l'aide de phpMyAdmin.
 

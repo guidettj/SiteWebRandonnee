@@ -13,9 +13,11 @@ if (isset($_SESSION['ajout'])) {
   unset($_SESSION['nom_rando']);
   exit(); 
 }
+require_once("config.php/");
+
 try { //Test pour vérifier si la connexion avec la base de données fonctionne. Ensuite, on trie les données en fonction de la condition choisie par l'utilisateur. 
   //Si aucun choix n'a été fait, on les trie par ordre alphabétique.
-  $bdd = new PDO("mysql:host=localhost;dbname=ExempleBD", "root", "");
+  $bdd = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   if (isset($_GET['valider'])) {
     $_SESSION['tri'] = $_GET['tri'];

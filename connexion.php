@@ -2,7 +2,8 @@
 session_start();
 //Si l'utilisateur veut se connecter, on vérifie si les informations sont les bonnes. Si elles le sont, on le redirige vers la page d'où il vient.
 if (isset($_POST['connecter'])) {
-    $bdd = new PDO("mysql:host=localhost;dbname=tpnote", "root", "");
+    require_once("config.php/");
+    $bdd = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
     if (!$bdd) {
         exit();
     }

@@ -2,7 +2,9 @@
 //LES DESCRIPTIONS ET INFORMATIONS DES RANDONNÉES ONT ÉTÉ TROUVÉ SUR LE SITE VISORANDO.
 
 session_start();
-$bdd = new PDO("mysql:host=localhost;dbname=ExempleBD", "root", "");
+
+require_once("config.php/");
+$bdd = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //on récupère les colonnes de la ligne de la randonnées
 $sql = "SELECT * FROM randonnees";

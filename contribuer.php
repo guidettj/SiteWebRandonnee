@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
     header("Location: connexion.php?message=" . urlencode($message));
     exit();
 }
-require_once("config.php/");
+require_once("config.php");
 $bdd = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
 if (!$bdd) {
     exit();

@@ -3,7 +3,7 @@
 
 session_start();
 
-require_once("config.php/");
+require_once("config.php");
 $bdd = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //on récupère les colonnes de la ligne de la randonnées

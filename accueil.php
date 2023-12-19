@@ -13,7 +13,7 @@ if (isset($_SESSION['ajout'])) {
   unset($_SESSION['nom_rando']);
   exit(); 
 }
-require_once("config.php/");
+require_once("./config.php");
 
 try { //Test pour vérifier si la connexion avec la base de données fonctionne. Ensuite, on trie les données en fonction de la condition choisie par l'utilisateur. 
   //Si aucun choix n'a été fait, on les trie par ordre alphabétique.

@@ -18,7 +18,7 @@ Pour exécuter le programme, suivez ces étapes :
 
 Pour utiliser les bases de données fournies dans le dossier "ExempleBD", suivez les étapes ci-dessous pour les installer à l'aide de phpMyAdmin.
 
-## Étapes d'installation
+### Étapes d'installation
 
 1. **Connectez-vous à phpMyAdmin :** Ouvrez votre navigateur web et accédez à l'interface de phpMyAdmin.
 

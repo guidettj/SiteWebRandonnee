@@ -2,11 +2,17 @@
 
 Site web permettant aux utilisateurs d'explorer et d'ajouter des randonnées. Ce projet a été créé dans le cadre d'un travail pratique pour le cours d'introduction aux technologies du web en L3 MIASHS à l'université Grenoble Alpes.
 
+Page d'acceuil :
 ![Image Accueil](ImageAccueil.png)
+
+Page Description d'une randonnée :
 ![Image Description](ImageDescription.png)
 ![Image Description](ImageDescription2.png)
-![Image Description](ImageDescription2.png)
+
+Page pour ajouter une randonnée :
 ![Image Contribuer](ImageContribuer.png)
+
+Page de Connexion :
 ![Image Connexion](ImageConnexion.png)
 
 ## Exécution
